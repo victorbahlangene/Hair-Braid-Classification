@@ -11,8 +11,8 @@ pathlib.PosixPath = pathlib.WindowsPath
 st.header("Hair Braid Classification")
 
 # Load Model #
-path = Path()
-learn_inf = load_learner(path/'hair.pkl')
+#path = Path()
+learn_inf = load_learner(Path()/'hair.pkl')
 
 # File uploader #
 uploaded_file = st.file_uploader("Upload Files", type=['png', 'jpeg', 'jpg'])
